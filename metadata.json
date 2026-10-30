@@ -1,0 +1,6 @@
+{
+  "name": "Remix PW Ahmad - Physics Wallah Lectures & Notes",
+  "description": "Physics Wallah study web app for batches, lectures, notes, DPPs, and video streaming with native HD player.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

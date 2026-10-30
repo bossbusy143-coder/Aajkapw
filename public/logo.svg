@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <!-- Dark Gunmetal / Charcoal gradients exactly matching the user's attached logo -->
+    <linearGradient id="charcoalGrad1" x1="25%" y1="10%" x2="75%" y2="90%">
+      <stop offset="0%" stop-color="#303239" />
+      <stop offset="60%" stop-color="#22242a" />
+      <stop offset="100%" stop-color="#18191d" />
+    </linearGradient>
+    <linearGradient id="charcoalGrad2" x1="15%" y1="85%" x2="85%" y2="15%">
+      <stop offset="0%" stop-color="#191a1e" />
+      <stop offset="50%" stop-color="#24262c" />
+      <stop offset="100%" stop-color="#2f3137" />
+    </linearGradient>
+    <linearGradient id="charcoalGrad3" x1="0%" y1="30%" x2="100%" y2="70%">
+      <stop offset="0%" stop-color="#282a30" />
+      <stop offset="70%" stop-color="#34363e" />
+      <stop offset="100%" stop-color="#3c3f48" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean white background matching the attached logonew.jpg -->
+  <rect width="512" height="512" rx="96" fill="#ffffff" />
+
+  <!-- Piece 1: Left Vertical Stem & Top Slanted Arm with rounded outer corners -->
+  <path d="M 142 148 
+           C 142 126, 156 112, 178 112 
+           L 280 183 
+           C 283 185, 285 188, 285 192 
+           L 285 272 
+           C 285 275, 281 277, 278 275 
+           L 194 213 
+           C 190 210, 188 214, 188 218 
+           L 188 366 
+           C 188 386, 174 400, 158 400 
+           C 148 400, 142 388, 142 366 
+           Z" 
+        fill="url(#charcoalGrad1)" />
+
+  <!-- Piece 2: Bottom Center Triangular Wedge -->
+  <path d="M 216 278 
+           C 216 273, 221 270, 225 273 
+           L 306 332 
+           C 309 335, 308 340, 304 343 
+           L 232 393 
+           C 222 399, 216 392, 216 381 
+           Z" 
+        fill="url(#charcoalGrad2)" />
+
+  <!-- Piece 3: Right Play Triangle with rounded apex -->
+  <path d="M 306 204 
+           C 306 199, 311 196, 315 199 
+           L 377 244 
+           C 385 250, 385 262, 377 268 
+           L 315 313 
+           C 311 316, 306 313, 306 308 
+           Z" 
+        fill="url(#charcoalGrad3)" />
+</svg>
